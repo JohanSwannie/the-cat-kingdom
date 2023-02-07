@@ -11,5 +11,7 @@ h1 {
     font-size: 4.5rem;
     font-weight: bold;
     font-family: 'Nabla', cursive;
+    text-transform: uppercase;
+    word-spacing: 3rem;
 }
 
