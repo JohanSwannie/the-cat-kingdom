@@ -1,4 +1,3 @@
-import React from 'react';
 import { Cats } from '../../AppFunction';
 import './card.styles.css';
 

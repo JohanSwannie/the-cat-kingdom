@@ -1,7 +1,7 @@
 import { useEffect, useState, ChangeEvent } from "react";
 import SearchBox from "./components/search-box/search-box.functional-component";
 import CardList from "./components/card-list/card-list.functional-component";
-import { getData } from './utils/data.utils';
+import { getCatData } from './utils/data.utils';
 import "./App.css";
 
 export type Cats = {
@@ -17,7 +17,7 @@ const AppFunction = () => {
 
   useEffect(() => {
     const fetchCats = async () => {
-      const data = await getData<Cats[]>(
+      const data = await getCatData<Cats[]>(
         'https://jsonplaceholder.typicode.com/users'
       );
       setCats(data);

@@ -1,4 +1,3 @@
-import React from 'react';
 import Card from '../card/card.functional-component';
 import { Cats } from '../../AppFunction';
 import './card-list.styles.css';
